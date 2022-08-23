@@ -16,5 +16,5 @@ say_aloha <- function(name) {
                    emo::ji("sunny"),
                    emo::ji("ocean"))
 
-  cat(crayon::bgGreen$bgBlue(message))
+  cat(crayon::bgBlue(message))
 }
